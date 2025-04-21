@@ -16,8 +16,8 @@ app.use(express.json()); //enlazado con la linea 1
 // app.get('/first', (req, res) => {
 //   res.json(books);  // Devolver los libros como respuesta JSON
 // });
-///app.use('/', booksRoutes);
-app.use('/books',booksRoutes);
+app.use('/', booksRoutes);
+
 app.listen(port, () => {
   console.log(`Running. Funcionando en: http://localhost:${port}`)
 })

@@ -29,7 +29,7 @@ const getLastBook = (req, res) => {
  
 
 //Crea una ruta /author/:author para obtener los libros de un autor específico
-const getAuthorBook = (req, res) => {
+/*const getAuthorBook = (req, res) => {
 
     console.log(req.params.title);
 
@@ -52,11 +52,11 @@ const getAuthorBook = (req, res) => {
     }else{
         res.status(404).json({ message: 'No books found' });
     }
-}
+}*/
 
 module.exports = {
     getAllBooks,
     getFirstBook,
     getLastBook,
-    getAuthorBook
+    //getAuthorBook
 }

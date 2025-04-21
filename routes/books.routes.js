@@ -8,6 +8,6 @@ router.get('/first', booksController.getFirstBook);
 //http://localhost:3000/last
 router.get('/last', booksController.getLastBook);
 
-router.get('/book/author/:author', booksController.getAuthorBook)
+//router.get('/book/author/:author', booksController.getAuthorBook)
 
 module.exports = router;
